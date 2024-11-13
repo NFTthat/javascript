@@ -1,0 +1,52 @@
+# System files and directories
+.DS_Store
+.CFUserTextEncoding
+.Trash/
+data/db/journal/
+Library/
+Applications/
+Movies/
+Music/
+Pictures/
+Desktop/
+Downloads/
+Public/
+
+# User directories
+.anaconda/
+.bash_history
+.bash_profile
+.codegpt/
+.conda/
+.condarc
+.config/
+.continuum/
+.docker/
+.gitconfig
+.idlerc/
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+.lesshst
+.local/
+.mongodb/
+.npm/
+.tcshrc
+.viminfo
+.vscode/
+.xonshrc
+.zprofile
+.zprofile.*
+.zsh_history
+.zsh_sessions/
+.zshrc
+
+# Specific project files or folders
+Unity/
+PycharmProjects/
+My\ Python/
+demo/
+mongodb-macos-x86_64-*/
+prevent-duplicate-tabs-chrome-extension/
+welcome-to-docker/
+
