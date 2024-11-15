@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(42, 42, 54);
+}
+
+button {
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: lightgoldenrodyellow;
+}
+
+section {
+    display: flex;
+    padding-top: 1rem;
+}
+
+.name, .cost, .tax, .total {
+    height: 1rem;
+    padding: 1rem;
+    background-color: aqua;
+    border-radius: 5px;
+    margin-left: 1rem;
+}
