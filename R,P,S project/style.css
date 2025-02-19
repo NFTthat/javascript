@@ -1,0 +1,29 @@
+body {
+    background-color: darkorange; 
+    height: 100vh;             
+    margin: 0;
+}
+
+p {
+    font-size: 3rem;
+    color: rgb(55, 0, 255);
+    text-align: center;
+}
+
+.button-container {
+    display: flex;         
+    justify-content: center;    
+}
+
+button {
+    margin: 5px;
+    padding: 1rem 3rem;
+    font-size: medium;
+    border-radius: 10px;
+    
+}
+
+button:hover {
+    background-color: rgb(55, 0, 255);
+    color: azure;
+}
