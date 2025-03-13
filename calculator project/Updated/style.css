@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(44, 44, 44);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+button {
+    font-size: 5rem;
+    padding: 2rem;
+    margin: 0.2rem;
+}
+
+button:hover {
+    background-color: black;
+    color: whitesmoke;
+    font-size: 5.3rem;
+}

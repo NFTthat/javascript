@@ -7,29 +7,106 @@
 </head>
 <body>
 
+    <h1>Class Test</h1>
+
 
     <script>
 
-        const number = console.log(Math.random());
-        const result = number < 0.5 ? 'Heads' : 'Tails';
+        // const number = console.log(Math.random());
+        // const result = number < 0.5 ? 'Heads' : 'Tails';
 
         
-        // if (number < 0.5) {
-        //     result = 'Heads';
-        // } else {
-        //     result = 'Tails';
+        // // if (number < 0.5) {
+        // //     result = 'Heads';
+        // // } else {
+        // //     result = 'Tails';
+        // // }
+
+        // const guess = 'Tails';
+
+        // console.log(guess === result ? 'You win!' : 'You lose!');
+
+        // // if (guess === result) {
+        // //     console.log('You win!');
+        // // } else {
+        // //     console.log('You lose!');
+        // // }
+
+        // function greet(name) {
+        //     // console.log(`Hello ${name}!`);
+
+        //     if (!name) {
+        //         console.log('Hi there!');
+        //     } else console.log(`Hello ${name}!`);
         // }
 
-        const guess = 'Tails';
+        // greet();
+        // greet('Dela');
 
-        console.log(guess === result ? 'You win!' : 'You lose!');
+    // function convertToFahrenheit(celsius) {
+    //     return (celsius * 9 / 5) + 32;
+    // }
 
-        // if (guess === result) {
-        //     console.log('You win!');
-        // } else {
-        //     console.log('You lose!');
-        // }
+    // // console.log(convertToFahrenheit(25));
+
+    // function convertToCelsius(fahrenheit) {
+    //     return (fahrenheit - 32) * 5 / 9
+    // }
+
+    // function convertTemperature(degrees, unit) {
+
+    //     if (unit === 'C') {
+    //         const result = convertToFahrenheit(degrees);
+    //         return `${result}F`;  
+    //     } else if (unit === 'F'){
+    //         const result = convertToCelsius(degrees);
+    //         return `${result}C`;
+    //     }
+    // }
+
+    // console.log(convertTemperature(25, 'C'));
+    // console.log(convertTemperature(86, 'F'));
+
+
+    // function convertLength(length, from, to){
+    //     if (from === 'miles'){
+    //         const result = length * 1.6;
+    //         return `${result} km`
+    //     } else if (from === 'km'){
+    //         const result = length / 1.6;
+    //         return `${result} miles`
+    //     } else if (from === 'miles'){
+    //         const result = length / 26400;
+    //         return `${result} ft`
+    //     } 
+    // }
+
+    function convertLength(length, from, to){
+        if (from === 'miles' && to === 'km'){
+            return `${length * 1.6} km`
+        } 
         
+        else if (from === 'miles' && to === 'ft'){
+            return `${length * 5280} ft`
+        }
+
+        else if (from === 'km' && to === 'ft'){
+            return `${length * 3281} ft`
+        }
+
+        else if (from != from || to){
+            const unit = to;
+            return `Invalid unit: ${unit}`
+        }
+    }
+
+    // console.log(convertLength(50, 'miles', 'km'))
+    // console.log(convertLength(32, 'km', 'miles'))
+    // console.log(convertLength(5, 'miles', 'km'))
+    console.log(convertLength(5, 'miles', 'km'));
+    console.log(convertLength(5, 'miles', 'ft'));
+    console.log(convertLength(5, 'km', 'ft'));
+    console.log(convertLength(5, 'lbs', 'lbs'));
 
     </script>
     
