@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coin-Flip Game</title>
+    <title>JavaScript Exercises</title>
 </head>
 <body>
 
@@ -81,32 +81,93 @@
     //     } 
     // }
 
-    function convertLength(length, from, to){
-        if (from === 'miles' && to === 'km'){
-            return `${length * 1.6} km`
-        } 
+    // FUNCTIONS EXERCISES
+    
+    // function convertLength(length, from, to){
+    //     if (from === 'miles' && to === 'km'){
+    //         return `${length * 1.6} km`
+    //     } 
         
-        else if (from === 'miles' && to === 'ft'){
-            return `${length * 5280} ft`
+    //     else if (from === 'miles' && to === 'ft'){
+    //         return `${length * 5280} ft`
+    //     }
+
+    //     else if (from === 'km' && to === 'ft'){
+    //         return `${length * 3281} ft`
+    //     }
+
+    //     else if (from != from || to){
+    //         const unit = to;
+    //         return `Invalid unit: ${unit}`
+    //     }
+    // }
+
+    // // console.log(convertLength(50, 'miles', 'km'))
+    // // console.log(convertLength(32, 'km', 'miles'))
+    // // console.log(convertLength(5, 'miles', 'km'))
+    // console.log(convertLength(5, 'miles', 'km'));
+    // console.log(convertLength(5, 'miles', 'ft'));
+    // console.log(convertLength(5, 'km', 'ft'));
+    // console.log(convertLength(5, 'lbs', 'lbs'));
+
+
+    // OBJECT EXERCISES
+
+    const product1 = {
+            name: 'basketball',
+            price: 2095
         }
 
-        else if (from === 'km' && to === 'ft'){
-            return `${length * 3281} ft`
+        const product2 = {
+            name: 'Football',
+            price: 3339
         }
 
-        else if (from != from || to){
-            const unit = to;
-            return `Invalid unit: ${unit}`
+        const product3 = {
+            name: 'Football',
+            price: 3339
         }
-    }
 
-    // console.log(convertLength(50, 'miles', 'km'))
-    // console.log(convertLength(32, 'km', 'miles'))
-    // console.log(convertLength(5, 'miles', 'km'))
-    console.log(convertLength(5, 'miles', 'km'));
-    console.log(convertLength(5, 'miles', 'ft'));
-    console.log(convertLength(5, 'km', 'ft'));
-    console.log(convertLength(5, 'lbs', 'lbs'));
+    //     console.log(product1);
+
+    //     product1.price += 500
+    //     console.log(product1);
+
+    //     product1["delivery-time"] = "3 days.";
+    //     console.log(product1);
+        
+
+        // console.log(highest);
+
+        function comparePrice(){
+            if (product1.price < product2.price){
+                return product1
+            } else return product2;
+        }
+        console.log(comparePrice());
+
+        // function comparePrice1(product1, product2){
+        //     if (product1 < product2){
+        //         return product1
+        //     } else return product2;
+        // }
+        // console.log(comparePrice1(3, 6));
+
+       function isSameProduct(product1, product2){
+        if (product1 === product2){
+            return true;
+        } else return false;
+        }
+
+        console.log(isSameProduct(1, 1))
+
+        const message = "Good Morning!"
+
+        const test = "Testing! "
+
+        console.log(message.toLowerCase());
+        console.log(test.repeat(3).toUpperCase());
+        console.log(test.repeat(3).toLowerCase());
 
     </script>
     
