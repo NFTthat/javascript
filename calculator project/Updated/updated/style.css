@@ -3,20 +3,23 @@ body {
     align-items: center;
     text-align: center;
     justify-content: center;
+    margin: 7vh;
+    
 }
 
 .calculator {
     align-items: center;
     text-align: center;
     justify-content: center;
-    background-color: blanchedalmond;
+    background-color: rgb(230, 230, 230);
     padding: 1rem;
     border-radius: 2rem;
-    width: fit-content;
+    width: max-content;
+    height: auto;
 }
 
 button {
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 1rem 1.5rem;
     margin: 0.5rem;
 }
@@ -24,5 +27,4 @@ button {
 button:hover {
     background-color: black;
     color: whitesmoke;
-    font-size: 3rem;
 }
